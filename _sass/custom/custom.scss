@@ -15,3 +15,12 @@ code {
   margin-top: -1.2%;
   margin-bottom: unset;
 }
+
+.recent-post {
+  font-size: 0.9em;
+  padding: $sp-3 1em 1em 1em;
+  margin-bottom: $sp-3;
+  overflow: auto;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
