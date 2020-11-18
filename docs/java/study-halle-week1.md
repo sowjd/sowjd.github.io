@@ -50,8 +50,8 @@ permalink: /docs/java/study-halle/week1
 </div>
 - `-nowarn` 경고 출력 X
 
-출처: [영어](http://www.cs.yorku.ca/tech/other/java/docs/tooldocs/solaris/javac.html#:~:text=The%20javac%20command%20compiles%20Java,to%20interprete%20the%20Java%20bytecodes.&text=Unless%20you%20specify%20the%20%2Dd,as%20the%20corresponding%20source%20file)
-/ [한국어](http://digital2u.co.kr/board/form/view/java/1199/1/0)
+*참고 [영어](http://www.cs.yorku.ca/tech/other/java/docs/tooldocs/solaris/javac.html#:~:text=The%20javac%20command%20compiles%20Java,to%20interprete%20the%20Java%20bytecodes.&text=Unless%20you%20specify%20the%20%2Dd,as%20the%20corresponding%20source%20file)
+/ [한국어](http://digital2u.co.kr/board/form/view/java/1199/1/0)*{: .fs-2}
 
 ### What happens in compile?
 - [2. JAVA의 컴파일 하는법](https://catch-me-java.tistory.com/9) 참고
@@ -80,12 +80,12 @@ Java Virtual Machine
 *출처 <https://medium.com/swlh/internals-of-compiler-and-jvm-f4d4dfd7092b>*
 {: .fs-2}
 1. 클래스 로더 시스템<br>
-클래스 파일을 로드한다.
+클래스 파일을 `Loading`, `Linking`, `Initialization` 단계를 거쳐 메모리 영역으로 로드한다.
 
 2. 메모리 ⇒ The Runtime Data Area<br>
  - `Method` 클래스 레벨의 데이터와 static 변수들을 저장, 공유 공간
  - `Heap` 객체(인스턴스)를 저장, 공유 공간
- - `Stack` Thread마다 생성됨<br>
+ - `Stack` thread마다 생성됨, [frame](https://johngrib.github.io/wiki/jvm-stack/)을 저장
  - `PC Registers` 현재 실행 중인 명령의 주소를 저장, thread마다 분리된 PC register를 가지고 있다.
  - `Native Method Stack` 네이티브 메소드 정보를 저장, thread마다 분리된 네이티브 메소드 스택을 가지고 있다.
 
@@ -119,7 +119,7 @@ Java Virtual Machine
 - `JDK` Java Development Kit<br>
    JRE에 개발 툴(Java compiler, 디버거 등)이 포함된 패키지<br>
 - `JRE` Java Runtime Environment<br>
-   자바 프로그램을 실행하는 환경 (개발 할 수 있는 환경 X)
+   자바 프로그램을 실행하는 환경 (개발할 수 있는 환경 X)
 
 ---
 
@@ -128,7 +128,7 @@ Java Virtual Machine
 `$ java <class file name>`
 
 ### 컴파일 버전과 실행 버전
-- 컴파일(javac 버전이 실행(java) 버전보다 낮으면 괜찮지만, 높으면 아래와 같은 에러가 발생
+- 컴파일(javac) 버전이 실행(java) 버전보다 낮으면 괜찮지만, 높으면 아래와 같은 에러가 발생
 <div class="code-example" markdown="1">
 Error: A JNI error has occurred, please check your installation and try again Exception in thread "main" java.lang.UnsupportedClassVersionError: MainClass has been compiled by a more recent version of the Java Runtime ... 
 </div>
