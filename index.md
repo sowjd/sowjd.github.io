@@ -6,6 +6,16 @@ permalink: /
 ---
 
 # 🌱 Recent Posts
+<div class="recent-post" onclick="location.href='docs/javascript';">
+<h2>JavaScript Theory</h2>
+<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-23</span>
+What is JavaScript?
+The only programming language for the Web
+Backend has many options (Java, Python, Ruby, ...)
+but, frontend we can only have JavaScript
+...
+</div>
+
 <div class="recent-post" onclick="location.href='docs/java/study-halle/week2';">
 <h2>[2주차] 프리미티브 타입, 변수, 배열 사용법</h2>
 <span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-18</span>
