@@ -56,6 +56,42 @@ permalink: /docs/java/study-halle/week2
 - 소스 코드에서 상수값으로 표현되는 문자<br>
   `e.g. 1, 1.0, 'A', "abc", true, false, null`
 
+### boolean 리터럴
+only `true`, `false`만 존재
+
+### 문자 리터럴
+```java
+char c1 = 'A';
+char c2 = '\u0100'; // 유니코드 문자
+char c3 = '\'';     // '
+char c4 = '\"';     // "
+char c5 = '\t';     // tab
+char c6 = '\b';     // backspace
+
+String s = "abc";
+```
+
+### 정수 리터럴
+```java
+int i = 15;         // 10진수
+int i1 = 0b1111;    // 2진수, 0b로 시작
+int i2 = 017;       // 8진수, 0으로 시작
+int i3 = 0xf;       // 16진수, 0x로 시작
+
+long l1 = 9999999999L;      // long 타입은 L을 붙어줌
+long l2 = 2_150_000_000L;   // 가독성을 위해 숫자 사이에 _삽입 가능
+```
+
+### 실수 리터럴
+```java
+// float 타입은 f나 F를 붙어줌
+float f1 = 0.13fF;
+float f2 = .13F;
+float f3 = 13E-2F;
+
+double d = 0.13;
+```
+
 ---
 
 ## 변수 선언 및 초기화

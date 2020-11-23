@@ -30,5 +30,5 @@ permalink: /
 <h2>STUDY HALLE</h2>
 <span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-18</span>
 Introduction
-선장님과 함께하는 [자바 기초 스터디]
+선장님과 함께하는 자바 기초 스터디
 </div>
