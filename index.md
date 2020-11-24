@@ -6,6 +6,15 @@ permalink: /
 ---
 
 # 🌱 Recent Posts
+<div class="recent-post" onclick="location.href='docs/git/change-default-branch';">
+<h2>Git CLI 기본브랜치 변경 (master → main)</h2>
+<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-24</span>
+GitHub에서 기본 브랜치를 master에서 main으로 바꾸었다.
+앞으로 생성되는 github 원격저장소의 기본브랜치 이름은 main이 된다.
+따라서, main 에 적응(?)하기 위해 설정을 변경하기로 했다.
+...
+</div>
+
 <div class="recent-post" onclick="location.href='docs/javascript';">
 <h2>JavaScript Theory</h2>
 <span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-23</span>
