@@ -2,7 +2,6 @@
 layout: default
 title: Java
 last_modified_date: 2020-11-18
-nav_order: 2
 has_children: true
 permalink: /docs/java
 ---

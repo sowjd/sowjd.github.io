@@ -3,7 +3,6 @@ layout: default
 title: STUDY HALLE
 last_modified_date: 2020-11-18
 parent: Java
-nav_order: 3
 has_children: true
 permalink: /docs/java/study-halle
 ---
