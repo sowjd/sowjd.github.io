@@ -38,7 +38,7 @@ for example...
 - make real-time stuff and interactive stuff
 - make mobile/native applications, video games
 
-something awesome😲 <https://world-draw.appspot.com/draw>{: .fs-2}
+something awesome😲 <https://world-draw.appspot.com/draw>{: .fs-3}
 
 ## ECMA Script
 - Specification/manual/instruction of JavaScript
@@ -54,12 +54,13 @@ JavaScript without library, low Javascript<br>
 
 ## Variables
 
-| keywords | scope | redeclaration | reassign | ect |
-|:----------:|:----------:|:----------:|:----------:|:-:|
+| keywords | scope | redeclaration | reassign | 비고 |
+|:--------:|:-----:|:-------------:|:--------:|:---:|
 | var | function | 𝖮 | 𝖮 | Not Recommended |
 | const | block({}) | 𝖷 | 𝖷 | since ES6 |
 | let | block({}) | 𝖷 | 𝖮 | since ES6 |
 
+<!--
 ## Data Type
 ### Primitive Type
 
@@ -121,7 +122,7 @@ https://dev.to/beumsk/how-to-add-emoji-s-in-your-website-using-html-css-or-javas
 
 eventListener https://developer.mozilla.org/ko/docs/Web/Events
 
-
+-->
 <br>
 위 내용은 [[노마드 코더] 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners/lobby)
 를 참고하여 정리한 내용입니다.
