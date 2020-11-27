@@ -6,10 +6,9 @@ parent: STUDY HALLE
 grand_parent: Java
 permalink: /docs/java/study-halle/week3
 ---
-
 ## 목표
 {: .no_toc }
-자바가 제공하는 다양한 연산자 학습하기
+**자바가 제공하는 다양한 연산자 학습하기**
 
 <details open markdown="block">
   <summary>
@@ -24,11 +23,12 @@ permalink: /docs/java/study-halle/week3
 
 ## 연산자 (Operator)
 연산을 위한 기호, 심볼
+- `이항 연산자 (Binary Operator)`&nbsp; 두 개의 operands를 필요로 하는 연산자
+- `단항 연산자 (Unary Operator)`&nbsp; 한 개의 operand를 필요로 하는 연산자
 
 ---
 
 ## 산술 연산자 (Arithmetic Operators)
-- Binary Operator(두 개의 operands를 필요로 하는 연산자)
 - 연산가능 데이터 타입: char, byte, short, int, long, float, double
 - char, byte, short형 연산 시 JVM Specification에 따라 int형으로 프로모션 되기 때문에<br>
   타입 캐스팅을 해주거나, 결과를 저장하는 변수의 타입을 int로 설정해야 함
@@ -78,7 +78,8 @@ System.out.println(-1.0/0.0); // -Infinity
 ```
 
 ### 비트 이동 연산자 (Shift Operators)
-`<number> <operator> <num of shift>`<br> ⇒  `<number>`를 32-bit 2진수로 바꾼 후 shift
+`<number> <operator> <num of shift>`<br>
+&nbsp; ⇒  `<number>`를 32-bit 2진수로 바꾼 후 shift
 <div class="code-example" markdown="1">
 **왜 32-bit일까?**<br>
 앞서 언급한 것 처럼 비트 연산은 0과 1로 표현할 수 있는 정수형만 가능한데<br>
@@ -129,7 +130,7 @@ System.out.println(-1.0/0.0); // -Infinity
 
 ---
 
-## instanceof
+## instanceof 연산자 
 - `<instance> instanceof <clss>`&nbsp; `<instance>`가 `<class>`형인지 판단<br>
   &nbsp; ∴ known as "Type Comparison Operator"
 - **is-a relationship**이 성립한다면 true를 반환<br>
@@ -154,13 +155,15 @@ System.out.println(-1.0/0.0); // -Infinity
 
 ---
 
-## 화살표(->) 연산자
-TODO
+## 화살표 연산자 (Lambda Arrow Operator)
+람다식(Lambda Expression)에 쓰이는 연산자
 
 ---
 
-## 3항 연산자
-TODO
+## 3항 연산자 (Ternary Operator)
+`<if statement> ? <true case> : <false case>`
+- 간단한 if-else 구문의 경우 3항 연산자를 사용하여 간결하게 표현할 수 있다
+- 중첩 사용도 가능하지만 가독성을 위해 지양하는 것이 좋다
 
 ---
 
@@ -171,16 +174,3 @@ TODO
 
 ## Java 13. switch 연산자
 TODO
-
-<!--
-산술 연산자
-비트 연산자
-관계 연산자
-논리 연산자
-instanceof
-assignment(=) operator
-화살표(->) 연산자
-3항 연산자
-연산자 우선 순위
-(optional) Java 13. switch 연산자
--->
