@@ -6,6 +6,20 @@ permalink: /
 ---
 
 # 🌱 Recent Posts
+<div class="recent-post" onclick="location.href='docs/java/study-halle/week3';">
+<h2>[3주차] 연산자</h2>
+<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-28</span>
+선장님과 함께하는 자바 기초 스터디
+3주차
+목표
+자바가 제공하는 다양한 연산자 학습하기
+산술 연산자
+비트 연산자
+관계 연산자
+논리 연산자
+...
+</div>
+
 <div class="recent-post" onclick="location.href='docs/git/change-default-branch';">
 <h2>Git CLI 기본브랜치 변경 (master → main)</h2>
 <span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-24</span>
