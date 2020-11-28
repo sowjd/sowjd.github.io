@@ -210,7 +210,47 @@ public int getMax(int a, int b) {
 
 ---
 
-<!--
-## Java 13. switch 연산자
-TODO
--->
+## Java 13. switch 연산자 (Switch Expression)
+1. 화살표 연산자`->` 사용: 다음 case로 진행하지 않도록 하는 break문이 필요 없어짐
+2. switch expression의 값 명시를 위한 break문을 `yield` 키워드로 변경하여 사용<br>
+
+*참고 <https://docs.oracle.com/en/java/javase/13/language/switch-expressions.html>*{: .fs-3}
+```java
+public enum Day { SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY; }
+
+Day day = Day.WEDNESDAY;
+
+// e.g. for 1
+System.out.println(
+    switch (day) {
+        case MONDAY, FRIDAY, SUNDAY -> 6;
+        case TUESDAY                -> 7;
+        case THURSDAY, SATURDAY     -> 8;
+        case WEDNESDAY              -> 9;
+        default -> throw new IllegalStateException("Invalid day: " + day);
+        }
+    );
+
+// e.g. for 2
+int numLetters = switch (day) {
+    case MONDAY, FRIDAY, SUNDAY -> {
+        System.out.println(6);
+        yield 6;
+    }
+    case TUESDAY -> {
+        System.out.println(7);
+        yield 7;
+    }
+    case THURSDAY, SATURDAY -> {
+        System.out.println(8);
+        yield 8;
+    }
+    case WEDNESDAY -> {
+        System.out.println(9);
+        yield 9;
+    }
+    default -> {
+        throw new IllegalStateException("Invalid day: " + day);
+    }
+};
+```
