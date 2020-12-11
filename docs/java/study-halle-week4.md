@@ -210,10 +210,12 @@ for(int n : primes)
 ---
 
 ## 과제 1. live-study 대시 보드를 만드는 코드를 작성하세요.
+<div class="code-example" markdown="1">
 - 깃헙 이슈 1번부터 18번까지 댓글을 순회하며 댓글을 남긴 사용자를 체크 할 것.
 - 참여율을 계산하세요. 총 18회에 중에 몇 %를 참여했는지 소숫점 두자리가지 보여줄 것.
 - [Github 자바 라이브러리](https://github-api.kohsuke.org)를 사용하면 편리합니다.
 - 깃헙 API를 익명으로 호출하는데 제한이 있기 때문에 본인의 깃헙 프로젝트에 이슈를 만들고 테스트를 하시면 더 자주 테스트할 수 있습니다.
+</div>
 
 ### 해결 과정
 1. IntelliJ에서 Maven Project 생성
@@ -225,7 +227,10 @@ for(int n : primes)
 4. 깃헙 저장소에 이슈 만들고 동작 테스트
 
 ### 결과물
-[소스코드 보기 👀](https://github.com/sowjd/live-study-assignment/tree/main/dashboard)<br>
+[깃허브 저장소 보기](https://github.com/sowjd/live-study-assignment/tree/main/dashboard)<br>
+<script src="https://gist.github.com/sowjd/6c71b3613c8b7f6f6a8072c68d3c2644.js"></script>
+<script src="https://gist.github.com/sowjd/03259e05126bd12aa6418b827a0537e1.js"></script>
+
 <div class="code-example" markdown="1">
 | 참여자 | 1주차<br>193/224<br>(86.16%) | 2주차<br>155/224<br>(69.20%) | 3주차<br>148/224<br>(66.07%) | 4주차<br>104/224<br>(46.43%) | 5주차<br>0/224<br>(0.00%) | 6주차<br>0/224<br>(0.00%) | 7주차<br>0/224<br>(0.00%) | 8주차<br>0/224<br>(0.00%) | 9주차<br>0/224<br>(0.00%) | 10주차<br>0/224<br>(0.00%) | 11주차<br>0/224<br>(0.00%) | 12주차<br>0/224<br>(0.00%) | 13주차<br>0/224<br>(0.00%) | 14주차<br>0/224<br>(0.00%) | 15주차<br>0/224<br>(0.00%) | 16주차<br>0/224<br>(0.00%) | 17주차<br>0/224<br>(0.00%) | 18주차<br>0/224<br>(0.00%) | 참석율 |
 | --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | --- |
