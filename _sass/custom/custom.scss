@@ -24,3 +24,11 @@ code {
   border: 1px solid $border-color;
   border-radius: $border-radius;
 }
+
+.gist .blob-code-inner {
+  font-size: 12px !important;
+}
+
+.gist .blob-num {
+  font-size: 12px !important;
+}
