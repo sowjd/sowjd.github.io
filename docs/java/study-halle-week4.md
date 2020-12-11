@@ -220,8 +220,8 @@ for(int n : primes)
 2. pom.xml 파일에 Github 자바 라이브러리 추가
 3. [라이브러리 도큐먼트](https://github-api.kohsuke.org/apidocs/index.html) 참고하여 코드작성
 - 이슈 1번 ~ 18번까지 커멘트를 단 사용자 아이디와 그 수를 취득
-    - 1주차 ~ 18주차까지 참여정보를 담는 WeekInfo 클래스 생성
-- 취득한 값으로 대시보드 출력
+        - 1주차 ~ 18주차까지 참여정보를 담는 WeekInfo 클래스 생성<br>
+- 마크다운 표 형식에 맞게 출력 ( = dashboard 출력)
 4. 깃헙 저장소에 이슈 만들고 동작 테스트
 
 ### 결과물
