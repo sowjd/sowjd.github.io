@@ -6,6 +6,23 @@ permalink: /
 ---
 
 # 🌱 Recent Posts
+<div class="recent-post" onclick="location.href='docs/java/study-halle/week5';">
+ <h2>[5주차] 클래스</h2>
+ <span class="text-small text-grey-dk-000 mb-0 mr-2">2020-12-18</span>
+ 선장님과 함께하는 자바 기초 스터디
+ 5주차
+ 목표
+ 자바의 Class에 대해 학습하기
+ Class
+ 클래스 정의
+ 중첩 타입, 내부 클래스
+ 메소드 정의
+ 생성자 정의
+ this 키워드
+ Instance
+ ...
+ </div>
+ 
 <div class="recent-post" onclick="location.href='docs/java/study-halle/week4';">
 <h2>[4주차] 제어문</h2>
 <span class="text-small text-grey-dk-000 mb-0 mr-2">2020-12-08</span>
