@@ -121,7 +121,7 @@ class A {
 ## 메소드 정의
 ```java
 Syntax
-<접근 제어자> <static nonstatic> <반환 타입> <메소드명> (<파라미터>) {
+<접근 제어자> <static> <반환 타입> <메소드명> (<파라미터>) {
     // define body
 }
 
