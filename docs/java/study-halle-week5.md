@@ -41,8 +41,8 @@ permalink: /docs/java/study-halle/week5
 - `static` 키워드 사용 가능<br>
  💡static 키워드를 사용하면?<br>
   &nbsp; &nbsp; ① 프로그램이 실행될 때 메모리에 올라간다<br>
-  &nbsp; &nbsp; ② 객체를 생성하지 않아도 사용 가능하다<br>
-  &nbsp; &nbsp; ③ 모든 객체가 공유한다<br>
+  &nbsp; &nbsp; ② 인스턴스를 생성하지 않아도 사용 가능하다<br>
+  &nbsp; &nbsp; ③ 모든 인스턴스가 공유한다<br>
 - access modifiers(접근 제어자) 키워드 사용 가능
 
 | Accessible to | public | protected | default | private |
