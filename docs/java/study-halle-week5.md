@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[5주차] 클래스"
-last_modified_date: 2020-12-18
+last_modified_date: 2021-02-14
 parent: STUDY HALLE
 grand_parent: Java
 permalink: /docs/java/study-halle/week5
@@ -22,23 +22,33 @@ permalink: /docs/java/study-halle/week5
 ---
 
 ## Class
-- 변수, 메소드 등의 정의를 통해 어떻게 작동시킬지 명시한 것<br>
+- 변수, 메소드 등의 정의를 통해 어떻게 작동시킬지 명시한 것
 - 자바 프로그램에서 핵심적인 요소로 클래스 없이 자바 코드를 작성할 수 없다
+- 클래스는 레퍼런스 타입이다
 
 ---
 
 ## 클래스 정의
 1. 클래스명<br>
-**Naming Convention**<br>
-- 클래스명은 첫 글자를 대문자로 하는 명사일 것
-- 첫 글자를 따서 줄이거나 약어는 지양할 것
+- Naming Convention
+  - 클래스명은 첫 글자를 대문자로 하는 명사일 것
+  - 첫 글자를 따서 줄이거나 약어는 지양할 것
 
 2. 상속, 인터페이스<br>
-- `extends` 키워드를 사용하여 superclass 지정 가능
-- `implements` 키워드를 사용하여 구현할 interface 지정 가능
+- `extends` 키워드를 사용하여 superclass 지정
+- `implements` 키워드를 사용하여 구현할 interface 지정
 
-3. 클래스 멤버: **변수, 메소드, 생성자**<br>
-- `static` 키워드 사용 가능<br>
+3. 필드: 변수, 메소드
+- `static` 키워드를 사용하여 클래스 변수/클래스 메소드인지, 인스턴스 변수/인스턴스 메소드인지 지정
+
+4. 생성자
+
+5. 초기화 블록
+
+---
+
+### 클래스 멤버
+- 변수 메소드 또는 생성자를 `static` 키워드를 사용하여 정의<br>
  💡static 키워드를 사용하면?<br>
   &nbsp; &nbsp; ① 프로그램이 실행될 때 메모리에 올라간다<br>
   &nbsp; &nbsp; ② 인스턴스를 생성하지 않아도 사용 가능하다<br>
@@ -57,6 +67,7 @@ public class Integer extends Number implements Serializable, Comparable {
     // class members here
 }
 ```
+
 *출처 Java in a Nutshell 7th edition*{: .fs-3}
 
 ---
