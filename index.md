@@ -6,6 +6,18 @@ permalink: /
 ---
 
 # 🌱 Recent Posts
+<div class="recent-post" onclick="location.href='docs/algorithm';">
+ <h2>Algorithm</h2>
+ <span class="text-small text-grey-dk-000 mb-0 mr-2">2021-03-10</span>
+ What is "Algorithm"
+ 문제 해결을 위한 논리적인 과정
+ Algorithm 분석
+ 시간복잡도(Time Complexity)
+ 공간복잡도(Space Complexity)
+ 점근적 표기법(Asymptotic notation)
+ ...
+ </div>
+ 
 <div class="recent-post" onclick="location.href='docs/java/study-halle/week5';">
  <h2>[5주차] 클래스</h2>
  <span class="text-small text-grey-dk-000 mb-0 mr-2">2021-02-14</span>
