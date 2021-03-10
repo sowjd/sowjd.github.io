@@ -16,6 +16,10 @@ code {
   margin-bottom: unset;
 }
 
+.with-li {
+  margin-left: 3em;
+}
+
 .recent-post {
   font-size: 0.9em;
   padding: $sp-3 1em 1em 1em;
@@ -31,4 +35,9 @@ code {
 
 .gist .blob-num {
   font-size: 12px !important;
+}
+
+p {
+  margin-top: unset;
+  padding-bottom: 1em;
 }
