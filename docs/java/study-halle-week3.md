@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "[3주차] 연산자"
-last_modified_date: 2020-11-28
+last_modified_date: 2021-03-26
 parent: STUDY HALLE
 grand_parent: Java
 permalink: /docs/java/study-halle/week3
@@ -83,7 +83,7 @@ System.out.println(-1.0/0.0); // -Infinity
 <div class="code-example" markdown="1">
 **왜 32-bit일까?**<br>
 앞서 언급한 것처럼 비트 연산은 0과 1로 표현할 수 있는 정수형만 가능한데<br>
-정수형에서 가장 큰 double type이 8-byte 즉, 32-bit의 크기를 가지기 때문
+정수형에서 가장 큰 long type이 8-byte 즉, 32-bit의 크기를 가지기 때문
 </div>
 
 | 연산자 | 연산식 | 동작 |
