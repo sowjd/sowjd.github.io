@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Sam3KRFont';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/Sam3KRFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Sam3KRFont';
+    padding-top: 5%;
+    margin: unset;
+}
+
+.main {
+    width: 49%;
+    float: left;
+    box-sizing: border-box;
+    /* border: 1px solid magenta; */
+}
+
+.board {
+    width: 49%;
+    float: right;
+    box-sizing: border-box;
+    border: 3px solid steelblue;
+    border-radius: 1rem;
+    padding: 1% 1% 1% 1%;
+    font-size: x-large;
+}
+
+.image {
+    text-align: center;
+}
+
+img {
+    width: 85%;
+}
+
+button {
+    font-family: 'Sam3KRFont';
+    font-size: xx-large;
+    color: magenta;
+    border: 3px solid magenta;
+    border-radius:5em;
+    background: none;
+    width: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+
+
+button:active:hover{
+    cursor: pointer;
+    background-color: slategrey;
+}
+
+.disabled {
+    color: rgba(255, 0, 255, 0.384);
+    border: 3px solid rgba(255, 0, 255, 0.384);
+}
+
+.btn {
+    margin-top: 10%;
+    text-align: center;
+}
+
+p {
+    padding-left: 10px;
+    padding-bottom: 7px;
+    margin: unset;
+}
+
+.title {
+    width: 60%;
+    float: left;
+    color: steelblue;
+    font-size: xx-large;
+    margin-bottom: 1%;
+}
+
+.clock {
+    width: 39%;
+    float: right;
+    color: steelblue;
+    font-size: xx-large;
+    margin-bottom: 1%;
+    text-align: right;
+}
