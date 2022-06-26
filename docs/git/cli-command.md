@@ -25,3 +25,9 @@ permalink: /docs/git/
 
 ## 특정 commit으로 이동
 clone한 후에 `$ git reset --hard <commit id>`로 이동 (명령어 한 줄로 할 수 없다는게 아쉽군..)
+
+## 원격저장소
+`$ git remote -v` 연결되어 있는 원격저장소 확인<br>
+`$ git remote remove <name>` 원격저장소 연결 끊기 (보통 &lt;name&gt;은 `origin`임)<br>
+`$ git remote add <name> <url>` 원격저장소 연결하기
+
