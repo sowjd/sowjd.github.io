@@ -6,108 +6,14 @@ permalink: /
 ---
 
 # 🌱 Recent Posts
-<div class="recent-post" onclick="location.href='docs/algorithm';">
- <h2>Algorithm</h2>
- <span class="text-small text-grey-dk-000 mb-0 mr-2">2021-03-10</span>
- What is "Algorithm"
- 문제 해결을 위한 논리적인 과정
- Algorithm 분석
- 시간복잡도(Time Complexity)
- 공간복잡도(Space Complexity)
- 점근적 표기법(Asymptotic notation)
+<div class="recent-post" onclick="location.href='docs/git'">
+ <h2>Git CLI Command</h2>
+ <span class="text-small text-grey-dk-000 mb-0 mr-2">2022-06-26</span>
+ 그만 찾아보고 외우자
+ git add 취소 $ git reset $ git reset &lt;file&gt;
+ git commit 취소 $ git reset HEAD^ 최신 커밋 취소 $ git reset HEAD~n 최신 n개의 커밋 취소
+ git push 취소
+ 1. $ git reset &lt;commit id&gt;
+ 2. $ git commit -m "commit messages"
  ...
  </div>
- 
-<div class="recent-post" onclick="location.href='docs/java/study-halle/week5';">
- <h2>[5주차] 클래스</h2>
- <span class="text-small text-grey-dk-000 mb-0 mr-2">2021-02-14</span>
- 선장님과 함께하는 자바 기초 스터디
- 5주차
- 목표
- 자바의 Class에 대해 학습하기
- Class
- 클래스 정의
- 클래스 멤버
- 중첩 타입, 내부 클래스
- 메소드 정의
- 생성자 정의
- this 키워드
- Instance
- ...
- </div>
- 
-<div class="recent-post" onclick="location.href='docs/java/study-halle/week4';">
-<h2>[4주차] 제어문</h2>
-<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-12-08</span>
-선장님과 함께하는 자바 기초 스터디
-4주차
-목표
-자바가 제공하는 제어문 학습하기
-if/else statement
-switch statement
-while statement
-do statement
-for statement
-foreach statement
-...
-</div>
-
-<div class="recent-post" onclick="location.href='docs/java/study-halle/week3';">
-<h2>[3주차] 연산자</h2>
-<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-28</span>
-선장님과 함께하는 자바 기초 스터디
-3주차
-목표
-자바가 제공하는 다양한 연산자 학습하기
-산술 연산자
-비트 연산자
-관계 연산자
-논리 연산자
-...
-</div>
-
-<div class="recent-post" onclick="location.href='docs/git/change-default-branch';">
-<h2>Git CLI 기본브랜치 변경 (master → main)</h2>
-<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-24</span>
-GitHub에서 기본 브랜치를 master에서 main으로 바꾸었다.
-앞으로 생성되는 github 원격저장소의 기본브랜치 이름은 main이 된다.
-따라서, main 에 적응(?)하기 위해 설정을 변경하기로 했다.
-...
-</div>
-
-<div class="recent-post" onclick="location.href='docs/javascript';">
-<h2>JavaScript Theory</h2>
-<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-23</span>
-What is JavaScript?
-The only programming language for the Web
-Backend has many options (Java, Python, Ruby, ...)
-but, frontend we can only have JavaScript
-...
-</div>
-
-<div class="recent-post" onclick="location.href='docs/java/study-halle/week2';">
-<h2>[2주차] 프리미티브 타입, 변수, 배열 사용법</h2>
-<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-18</span>
-선장님과 함께하는 자바 기초 스터디
-2주차
-목표
-자바의 프리미티브 타입, 변수 그리고 배열을 사용하는 방법 익히기
-...
-</div>
-
-<div class="recent-post" onclick="location.href='docs/java/study-halle/week1';">
-<h2>[1주차] 자바 코드 실행과정</h2>
-<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-18</span>
-선장님과 함께하는 자바 기초 스터디
-1주차
-목표
-자바 소스 파일(.java)을 JVM으로 실행하는 과정 이해하기
-...
-</div>
-
-<div class="recent-post" onclick="location.href='docs/java/study-halle';">
-<h2>STUDY HALLE</h2>
-<span class="text-small text-grey-dk-000 mb-0 mr-2">2020-11-18</span>
-Introduction
-선장님과 함께하는 자바 기초 스터디
-</div>
