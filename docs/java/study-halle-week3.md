@@ -178,6 +178,7 @@ public int getMax(int a, int b) {
     return (a >= b) ? a : b;
 }
 ```
+참조 - https://www.scaler.com/topics/ternary-operators-in-java/
 
 ---
 
